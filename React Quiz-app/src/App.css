@@ -1,0 +1,146 @@
+
+.App-logo{
+  height: 15vmin;
+  pointer-events: none;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+body {
+  font-family: 'Copperplate', fantasy;
+  
+  margin: 1px;
+  padding: 0px;
+  font-size: 26px;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+  margin: 200px auto;
+  max-width: 700px;
+  background-color: #ffffff;
+  padding: 150px;
+  border-radius: 100px;
+  box-shadow: 0 0 80px rgb(86, 213, 250);
+}
+
+h1, h2 {
+  color: #010000;
+}
+
+p {
+  color: #000000;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #e6e6ee;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: rgb(181, 181, 187);
+  font-weight: bold;
+}
+
+li.selected {
+  background-color: #4caf50;
+  color: white;
+}
+
+button {
+  background-color: #f3f4f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+  font-weight: bold;
+}
+
+.next-button {
+  font-family: 'Copperplate', fantasy;
+  margin-top: 10px;
+  background-color: #e6e6ee;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.next-button:hover {
+  background-color: #17d621;
+  font-weight: bold;
+  
+}
+
+.try-again-button {
+  background-color: #3498db; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+.try-again-button:hover {
+  background-color: #29b960; 
+  font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3600deg);
+  }
+}
+
+
+.start-button {
+  font-family: 'Copperplate', fantasy;
+  background-color: rgb(86, 213, 250); 
+  color: white;
+  padding: 30px 150px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 30px;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #23d12c; 
+  font-family: 'Copperplate', fantasy;
+  font-weight: bold;
+
+}
+
+
